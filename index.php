@@ -98,11 +98,6 @@ echo "<br>";
 echo $comment;
 echo "<br>";
 echo $gender;
-
-$myfile = fopen("newfile.txt", "w") or die("Unable to open file!");
-fwrite($myfile, $name);
-fwrite($myfile, $email);
-fclose($myfile);
 ?>
 
 </body>
